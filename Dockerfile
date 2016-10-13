@@ -10,4 +10,6 @@ RUN yum -y upgrade && \
     wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie;" http://download.oracle.com/otn-pub/java/jdk/$JRE_VERSION-$BUILD_VERSION/jre-$JRE_VERSION-linux-x64.rpm -O /tmp/jre-$JRE_VERSION-linux-x64.rpm && \
     yum -y install /tmp/jre-$JRE_VERSION-linux-x64.rpm && \
     rm /tmp/jre-$JRE_VERSION-linux-x64.rpm && \
-	yum clean all
+    yum clean all
+
+ENV JAVA_HOME /usr/java/latest
