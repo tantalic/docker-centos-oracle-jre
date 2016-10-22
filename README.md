@@ -1,3 +1,5 @@
-# CentOS + Oracle JRE Docker Image
+# Project Deprecated
 
-Base image for running Java applications on CentOS.
+This project is now a subset of the [toolhouse/docker-oracle-java][docker-oracle-java] project.
+
+[docker-oracle-java]: https://github.com/toolhouse/docker-oracle-java
